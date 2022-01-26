@@ -18,8 +18,8 @@
       </div>
     </div>
  </nav>
-<Home/>
-<About/>
+<Home />
+<About />
 
 </template>
 

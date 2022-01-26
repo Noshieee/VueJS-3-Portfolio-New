@@ -1,5 +1,7 @@
 <template>
-  
+<section id="Skills">
+    
+</section>
 </template>
 
 <script>
