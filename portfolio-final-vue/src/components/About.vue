@@ -12,7 +12,19 @@
                 </p>
             </div>
         </div>
+        <div class="education-bio">
+            <div class="education">
 
+            </div>
+            <div class="bio">
+                <ul>
+                    <li>Full Name:</li>
+                    <li>Age:</li>
+                    <li>Email:</li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
     </div>
     </section>
 </template>
@@ -55,5 +67,21 @@ export default {
 .about-box-right {
     width: 50%;
     text-align: left;
+}
+
+.education-bio {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.education {
+
+}
+
+.bio {
+
 }
 </style>
