@@ -1,24 +1,32 @@
 <template>
+<section id="Home">
     <div class="Home">
         <h1>Hi its me Enosh</h1>
     </div>
+</section>
 </template>
 
 <script>
 export default {
   name: 'Home',
   components: {
-
   }
 }
 </script>
 
 <style>
-.Home {
+*{
+    padding: 0;
+    margin: 0;
+}
+#Home {
+    padding: 0;
+    margin: 0;
     height: 100vh;
     text-align: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.postimg.cc/wB476TCT/Home.jpg');
-    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('https://i.postimg.cc/G2YG1TKv/alt-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Home h1{
