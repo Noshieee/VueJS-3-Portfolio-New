@@ -1,0 +1,36 @@
+{
+    "projects": [{
+        "title": "Calculator",
+        "image": "url()",
+        "program": "Javascript",
+        "id": 1,
+        "github": "https://github.com/Noshieee/Calculator",
+        "netlify": "https://my-calculator-noshieee.netlify.app/",
+        "description": "lorem"    },
+    {
+        "title": "Point of Sale",
+        "image": "url()",
+        "program": "Javascript", 
+        "id": 2,
+        "github": "https://github.com/Noshieee/POS-JavaScript-project",
+        "netlify": "https://kicking-n-screaming-36674.netlify.app/",
+        "description": "lorem"    },
+    {
+        "title": "Reaction Test",
+        "image": "url()",
+        "program": "Vue.JS", 
+        "id": 3,
+        "github": "https://github.com/Noshieee/Reaction-test-main_VueJS",
+        "netlify": "https://trusting-wiles-d91f98.netlify.app/",
+        "description": "lorem"    },
+    {
+        "title": "ProjName",
+        "image": "url()",
+        "program": "Javascript", 
+        "id": 4,
+        "github": "lorem",
+        "netlify": "it works",
+        "description": "lorem"
+    }
+]
+}

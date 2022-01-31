@@ -24,7 +24,7 @@ export default {
     margin: 0;
     height: 100vh;
     text-align: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('https://i.postimg.cc/G2YG1TKv/alt-bg.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75)), url('https://i.postimg.cc/zfSVkWMp/stage-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
