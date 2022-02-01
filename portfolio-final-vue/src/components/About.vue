@@ -12,7 +12,7 @@
                 </p>
             </div>
         </div>
-        <div class="education-bio">
+        <!-- <div class="education-bio">
             <div class="education">
 
             </div>
@@ -24,7 +24,7 @@
                     <li></li>
                 </ul>
             </div>
-        </div>
+        </div> -->
     </div>
     </section>
 </template>

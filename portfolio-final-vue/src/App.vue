@@ -1,11 +1,31 @@
 <template>
 <div>
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid ms-5 me-5">
+      <a class="navbar-brand fw-bold" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+ </nav>
   <Home />
   <About />
   <Skills />
   <Projects />
   <Testimonials />
   <Contact />
+  <footer>
+    <p class="mb-0">copyright created by Enosh Elliott</p>
+  </footer>
   
 </div>
 
@@ -46,5 +66,18 @@ export default {
 
 section {
   padding: 5%;
+}
+
+.navbar-nav{
+    font-size: 27px;
+}
+
+ /* footer */
+ footer {
+    text-align: center;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-size: large;
+    background-color: rgba(0, 0, 0,1);
 }
 </style>

@@ -1,16 +1,15 @@
 <template>
 <section id="Projects">
-  <h1>Projects</h1>
-    <div class="card">
-      <div v-for = "project in projects" :key="project.id" class="project">
-        <div class="card-bottom">
-          <h1>
-            {{ project.title }}            
-          </h1>
-          <p> {{ project.description }}</p>
-          <a class="btn" id="project-links" target="_blank" :href="project.github">github link</a>
-          <a class="btn" id="project-links" target="_blank" :href="project.netlify">netlify link</a>
-        </div>
+  <h1>Projects</h1><br>
+    <div class="row">
+      <div v-for = "project in projects" :key="project.id" class="col-6 col-md-6 col-sm-12 border border-dark">
+        <img :src="project.image" style="width:100%" height="300">
+        <h1>
+          {{ project.title }}            
+        </h1>
+        <p> {{ project.description }}</p>
+        <a class="btn" id="project-links" target="_blank" :href="project.repo">Repository link</a>
+        <a v-if="project.netlify !== ''" class="btn" :class="{ active: isActive }" id="project-links" target="_blank" :href="project.netlify">Netlify link</a>
       </div>
     </div>
     
@@ -36,20 +35,11 @@ export default {
 }
 </script>
 
-<style>
-.card{
-  display: flex;
-  flex-wrap: wrap;
-  height: 40vh;
-  width: 100%;
-  margin: 30px;
-  padding: 20px;
-}
-
+<style scoped>
 #project-links{
   background-color: cyan;
   padding: 10px 20px;
-  margin: 10px;
+  margin: 10px 10px 40px;
   font-size: 25px;
 }
 
@@ -59,5 +49,8 @@ export default {
   color: cyan;
   /* padding: 10px 20px;
   margin: 10px; */
+}
+.row {
+  gap: 0px 0px;
 }
 </style>
