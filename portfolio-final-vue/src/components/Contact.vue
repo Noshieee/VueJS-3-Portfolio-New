@@ -8,15 +8,11 @@
                 <textarea type="text" name="Your Message" class="input-field textarea-field" placeholder="Your Message"></textarea>
                 <button type="submit" class="btn">Send Message</button>    
             </form>
-        </div>
-        <div class="btn btn-dark">
-		    <a href="https://www.linkedin.com/in/enosh-elliott-bab50a224/" target="_blank"></a>
-		    <div class="icon">
-            <i class="fab fa-linkedin"></i>
+            <div class="socials">
+		        <a class="btn btn-dark" href="https://www.linkedin.com/in/enosh-elliott-bab50a224/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		        <a class="btn btn-dark" href="https://github.com/Noshieee" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
-
-		<a class="btn btn-dark" href="https://github.com/Noshieee" target="_blank"><i class="fab fa-github"></i></a>
 
 </section>
 </template>
@@ -30,12 +26,13 @@ export default {
 </script>
 
 <style scoped>
- .contact-box{
+
+.contact-box{
     width: 500px;
     box-shadow: 0 0 20px 0 rgb(10, 253, 213);
     /* top: 50%; */
     /* left: 50%; */
-    transform: translate(100%,0%);
+    /* transform: translate(100%,0%); */
     position: relative;
     background-image: url();
 }
